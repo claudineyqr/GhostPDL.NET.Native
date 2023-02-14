@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <version>10.0.0-rc2</version>
+        <id>GhostPDL.NET.Native</id>
+        <title>GhostPDL.NET.Native</title>
+        <authors>Claudiney Queiroz</authors>
+        <owners>Claudiney Queiroz</owners>
+        <description>Pack libs GhostPDL and related resources as an unofficial NuGet package.</description>
+        <copyright>Copyright © 2022 Artifex Software, Inc.</copyright>
+        <tags>GhostPDL.NET.Native GhostPDL.NET GhostPDL</tags>
+        <readme>README.md</readme>
+        <license type="expression">AGPL-3.0-only</license>
+        <projectUrl>https://github.com/claudineyqr/GhostPDL.NET.Native</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    </metadata>
+    <files>
+        <file src="README.md" target="\" />
+        <file src="bin\10.0.0\win-x64\*.*" target="runtimes\win-x64\native" />
+        <file src="bin\10.0.0\linux-x64\libgpdl.so" target="runtimes\linux-x64\native" />
+        <file src="bin\10.0.0\linux-arm64\libgpdl.so" target="runtimes\linux-arm64\native" />
+        <file src="bin\10.0.0\osx-x64\libgpdl.dylib" target="runtimes\osx-x64\native" />
+        <file src="bin\10.0.0\contents\**\*" target="runtimes\win-x64\native\ghostpdl-contents" />
+        <file src="bin\10.0.0\contents\**\*" target="runtimes\linux-x64\native\ghostpdl-contents" />
+        <file src="bin\10.0.0\contents\**\*" target="runtimes\linux-arm64\native\ghostpdl-contents" />
+        <file src="bin\10.0.0\contents\**\*" target="runtimes\osx-x64\native\ghostpdl-contents" />
+    </files>
+</package>
