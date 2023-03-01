@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
     <metadata>
-        <version>10.0.0.2</version>
+        <version>10.0.0.3</version>
         <id>GhostPDL.NET.Native</id>
         <title>GhostPDL.NET.Native</title>
         <authors>Claudiney Queiroz</authors>
         <owners>Claudiney Queiroz</owners>
-        <description>Pack libs GhostPDL and related resources as an unofficial NuGet package.</description>
+        <description>GhostPDL.NET.Native is an unofficial NuGet package of the libs and related resources, which are part of the GhostPDL. The package is used in the GhostPDL.NET project.</description>
         <copyright>Copyright © 2022 Artifex Software, Inc.</copyright>
         <tags>GhostPDL.NET.Native GhostPDL.NET GhostPDL</tags>
         <readme>README.md</readme>
