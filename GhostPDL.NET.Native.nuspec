@@ -15,7 +15,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
     </metadata>
     <files>
-        <file src="README.md" target="\" />
+        <file src="nugetReadme.md" target="\" />
         <file src="bin\10.0.0\win-x64\*.*" target="runtimes\win-x64\native" />
         <file src="bin\10.0.0\linux-x64\libgpdl.so.10.00" target="runtimes\linux-x64\native" />
         <file src="bin\10.0.0\linux-x64\libgpdl.rhel.so.10.00" target="runtimes\linux-x64\native" />
