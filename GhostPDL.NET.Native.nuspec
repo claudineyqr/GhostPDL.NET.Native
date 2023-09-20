@@ -9,7 +9,7 @@
         <description>GhostPDL.NET.Native is an unofficial NuGet package of the libs and related resources, which are part of the GhostPDL. The package is used in the GhostPDL.NET project.</description>
         <copyright>Copyright © 2022 Artifex Software, Inc.</copyright>
         <tags>GhostPDL.NET.Native GhostPDL.NET GhostPDL</tags>
-        <readme>README.md</readme>
+        <readme>nugetReadme.md</readme>
         <license type="expression">AGPL-3.0-only</license>
         <projectUrl>https://github.com/claudineyqr/GhostPDL.NET.Native</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
